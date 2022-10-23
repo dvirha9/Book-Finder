@@ -1,0 +1,29 @@
+.book {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.book-info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.book-info h3, .book-info h4{
+    margin: 5px 0px 5px 0px;
+    color: black
+}
+
+.book-info p {
+    color: rgb(100, 100, 100);
+}
+.book img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(206, 206, 206);
+}

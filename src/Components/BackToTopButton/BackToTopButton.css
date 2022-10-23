@@ -1,0 +1,46 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 45px;
+    transition: all 200ms ease-in;
+}
+
+.back-to-top button{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    background-color: rgb(212, 218, 216);
+}
+
+.back-to-top button:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+.back-to-top button i {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(1px); }
+    50%  { transform: translateY(-3px); }
+    100% { transform: translateY(1px); }
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1300px) {
+    .back-to-top { 
+        right: 30px;
+    }
+}

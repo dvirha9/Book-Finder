@@ -1,0 +1,22 @@
+.book-list {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border: none;
+    overflow-y: auto;
+    min-height: 90vh;
+    min-width: 90vw;
+    overflow: overlay
+}
+
+.loader {
+    margin: 30px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .search-book-section .book-list {
+        padding: 10px;
+    }
+}
