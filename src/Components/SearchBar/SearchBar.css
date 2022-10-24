@@ -28,6 +28,7 @@
     color: #282c34;
     font-size: 20px;
     transition: all 200ms ease-in-out;
+    text-align: center;
   }
   
   .search-button:hover {

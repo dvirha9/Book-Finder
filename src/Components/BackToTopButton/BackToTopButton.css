@@ -23,6 +23,7 @@
     animation-name: bounce;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    color: black;
 }
 
 @keyframes bounce {
