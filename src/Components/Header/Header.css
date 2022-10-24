@@ -48,6 +48,7 @@
   }
   .App .header {
     align-items: center;
+    height: auto;
     /* background-position: 10% 100%;
     background-size: 300%;
     background-repeat: no-repeat;
