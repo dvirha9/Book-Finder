@@ -30,6 +30,14 @@
     transition: all 200ms ease-in-out;
     text-align: center;
   }
+
+  .search-button i {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
   
   .search-button:hover {
     background-color:#282c3421
