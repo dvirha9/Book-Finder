@@ -9,7 +9,7 @@ This project is currently in development. Users can search for books and find re
 ## Screenshots
 ![Landing Page](https://i.ibb.co/z7CBJS9/book-search-landing.png)
 
-![Searching](https://i.ibb.co/vLs6KbM/pride-and-prejudice-search.png)
+![Searching](https://i.ibb.co/C0WYq6j/harry-potter-search.png)
 
 
 ## Installation and Setup Instructions
