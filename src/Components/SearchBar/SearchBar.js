@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './SearchBar.css'
 
 
-function SearchBar({ setQuery }) {
+function SearchBar({ setQuery, headerHeight }) {
     const [inputValue, setInputValue] = useState('')
     
     
@@ -12,13 +12,13 @@ function SearchBar({ setQuery }) {
 
     const handleSearch = () => {
         setQuery(inputValue)
-        window.scrollTo({top:window.innerHeight, behavior: 'smooth'})
+        window.scrollTo({top:headerHeight, behavior: 'smooth'})
     }
 
     const handleKeyDown = (e) => {
         if (e.key === 'Enter') {
             setQuery(inputValue)
-            window.scrollTo({top:window.innerHeight, behavior: 'smooth'})
+            window.scrollTo({top:headerHeight, behavior: 'smooth'})
           }
     }
 
