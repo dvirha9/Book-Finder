@@ -4,7 +4,8 @@ A book search engine application using [Google Books API](https://developers.goo
 
 ##  Project Status
 
-This project is currently in development. Users can search for books and find relevant results. Functionality to view more data is in progress.
+This project is currently in development. Users can search for books and find relevant results. Functionality to view more data is in progress.<br>
+You may visit current version at https://dvirha9.github.io/Book-Finder/
 
 ## Screenshots
 ![Landing Page](https://i.ibb.co/z7CBJS9/book-search-landing.png)
