@@ -1,6 +1,6 @@
 
 # Book Finder
-A book search engine application using [Google Books API](https://developers.google.com/books), built with React, JavaScript, and CSS.
+A responsive book search engine application using [Google Books API](https://developers.google.com/books), built with React, JavaScript, and CSS.
 
 ##  Project Status
 
