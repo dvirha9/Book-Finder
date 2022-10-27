@@ -22,12 +22,18 @@
     color: rgb(100, 100, 100);
 }
 .book img {
-    width: 150px;
-    height: 100%;
+    
+    height: 200px;
+    width: auto;
     object-fit: cover;
     border: 1px solid rgb(206, 206, 206);
 }
 
 .book:hover {
     background-color: aliceblue;
+}
+
+.modal__img {
+    width: 200px;
+    height: auto;
 }

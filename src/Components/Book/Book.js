@@ -46,7 +46,7 @@ function Book({ book, innerRef }) {
             <div {...(innerRef !== undefined ? {ref: innerRef} : {})} className='book-info'>
                 <h3>{longStringShortened(book?.volumeInfo?.title, 200)}</h3>
                 {(book?.volumeInfo?.authors && <h4>By {book?.volumeInfo?.authors.join(', ')}</h4>) || <h4>By Unknown</h4>}
-                {(book?.volumeInfo?.description && <p>{longStringShortened(book?.volumeInfo?.description, 1000)}</p>) || <p>No description</p>}
+                {(book?.volumeInfo?.description && <p>{matchMedia('only screen and (max-width: 1000px)').matches ? longStringShortened(book?.volumeInfo?.description, 200) : longStringShortened(book?.volumeInfo?.description, 1000)}</p>) || <p>No description</p>}
             </div>
         </div>
         <Modal
@@ -54,7 +54,7 @@ function Book({ book, innerRef }) {
         onClose={handleClose}
         >
             <Box sx={style} >
-                <img src={book?.volumeInfo?.imageLinks?.smallThumbnail || "https://via.placeholder.com/128x185.png?text=Not+Available"} alt={book.volumeInfo.title}></img>
+                <img className="modal__img" src={book?.volumeInfo?.imageLinks?.smallThumbnail || "https://via.placeholder.com/128x185.png?text=Not+Available"} alt={book.volumeInfo.title}></img>
                 <h3>{book?.volumeInfo?.title}</h3>
                 {(book?.volumeInfo?.authors && <h4>By {book?.volumeInfo?.authors.join(', ')}</h4>) || <h4>By Unknown</h4>}
                 {(book?.volumeInfo?.description && <p>{book?.volumeInfo?.description}</p>) || <p>No description</p>}
